@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 function Project() {
     return (
-        <div>
+        <div className = 'oxymusic_project'>
             {/*Insted of CustomHeader*/ }
                 <div className = 'custom-header'>
                     <button><Link to = '/'><img src = 'images/backArrow.png' alt = "back"/></Link></button>

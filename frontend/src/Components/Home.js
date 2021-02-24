@@ -6,9 +6,10 @@ import Typical from 'react-typical'
 function Home() {
     return (
         <div>
-            <Header />
-            <img src='images/hero-image.jpg' className= 'hero-image'alt = "hero image" />
-
+            <div className = 'home'>
+                <Header />
+            {/* <img src='images/hero-image.jpg' className= 'hero-image'alt = "hero image" /> */}
+            
             <h1 className = "typewritter-effect">Hey,My name is John Ngala.</h1> 
             <h1 className = "typewritter-effect"> 
                 <Typical
@@ -30,6 +31,7 @@ function Home() {
                  <button className="individual-button"><Link to = '/about'>About</Link></button>
             </div>
             
+            </div>
         </div>
     )
 }

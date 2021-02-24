@@ -23,12 +23,13 @@ const Freelance = () => {
    } , [])
 
    return(
-       <div>
+       <div className = 'project'>
             {/*Insted of CustomHeader*/ }
                 <div className = 'custom-header'>
                     <button><Link to = '/'><img src = 'images/backArrow.png' alt = "back"/></Link></button>
                     <h1>Freelance Work</h1>
                 </div>
+                <h1 className = 'project__h1'>Here are some things i've worked on!</h1>
             <div>
                  {freelanceProjects.map(freelanceProject => (
                      <FreelanceItem
@@ -43,7 +44,6 @@ const Freelance = () => {
    )
 
 }
-
 export default Freelance
 
 

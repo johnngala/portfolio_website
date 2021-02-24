@@ -16,8 +16,9 @@ function Dashboard() {
     const alert = useAlert() 
 
     return (
-        <div>
-            {/*Instead of CustomHeader*/ }
+        <div className>
+            <div className = 'dashboard'>
+                {/*Instead of CustomHeader*/ }
                 <div className = 'custom-header'>
                     <button><Link to = '/'><img src = 'images/backArrow.png' alt = "back"/></Link></button>
                     <h1>Dashboard</h1>
@@ -26,15 +27,16 @@ function Dashboard() {
 
                 <form>
                         <label htmlFor = "username" className = "">Username</label>
-                        <input  />
+                        <input placeholder = 'username' />
                         <label htmlFor = "username" className = "">Password</label>
-                        <input  />
+                        <input placeholder = 'password'  />
                         <button className = "submit-button"
                         onClick={handleSubmit}
                             >
                             Login
                         </button>
                 </form>
+            </div>
                
         </div>
     )

@@ -4,14 +4,14 @@ import {Link} from 'react-router-dom'
 
 function About(props) {
     return (
-        <div>
+        <div className = 'about'>
             {/*Insted of CustomHeader*/ }
                 <div className = 'custom-header'>
                     <button><Link to = '/'><img src = 'images/backArrow.png' alt = "back"/></Link></button>
                     <h1>About Me</h1>
                 </div>
-                <img src = "images/about.jpg" alt = "about_me"  className ="about_me_img"/>
-                <h1>The Story of my life</h1>
+                <img src = "images/about_me1.jpg" alt = "about_me"  className ="about_me_img"/>
+                <h1 className = "about_me_h1">The Story of my life</h1>
                 <p className = "about_me_txt">
                     As I said,I'm John Ngala.I am a fullstack web developer and Android developer.
                     I design,build and provide solutions to customer needs for their websites,
@@ -21,8 +21,8 @@ function About(props) {
                     I am always surprised at how many small business owners want a website but 
                     are intimidated by reaching out to someone to create one for them.
                     My goal is to make that process as easy as possible for them.
-                    Yeah.So that's me.If you like to talk visit the Contact section and
-                     reach out to me.
+                    Yeah.That's about it.If you like to talk visit the Contact section and
+                    hit me up.
                 </p>
         </div>
     )
