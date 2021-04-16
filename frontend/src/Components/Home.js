@@ -17,9 +17,9 @@ function Home() {
                 wrapper = "b"
                 steps = {
                     [
-                     "I'm a software developer 💻 ,"  , 1000 ,
-                     'magician,' , 1000 , 
-                     'and boyfriend of 4. ( absolutely kidding 😉 )' , 1000
+                     "I'm a web developer 💻  ,"  , 1000 ,
+                     'android developer  📱 ,', 1000 , 
+                     'and magician.', 1000
                     ]
                 }
                 />
