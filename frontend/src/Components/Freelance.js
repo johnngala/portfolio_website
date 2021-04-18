@@ -59,8 +59,7 @@ const Freelance = () => {
                         Visit project
                     </a>
                 </button>
-                
-
+      
                 <div className = 'spacer'>hello</div>
             </section>
 

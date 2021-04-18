@@ -23,6 +23,7 @@ function Dashboard() {
                     <button><Link to = '/'><img src = 'images/backArrow.png' alt = "back"/></Link></button>
                     <h1>Dashboard</h1>
                 </div>
+                
                 <h1 className = "dashboard_text">Login into the Dashboard</h1>
 
                 <form>
