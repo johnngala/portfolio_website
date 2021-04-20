@@ -18,7 +18,7 @@ function Home() {
                 steps = {
                     [
                      "I'm a web developer 💻  ,"  , 1000 ,
-                     'android developer  📱 ,', 1000 , 
+                     'android developer  📱 ', 1000 , 
                      'and magician.', 1000
                     ]
                 }

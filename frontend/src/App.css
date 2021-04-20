@@ -762,7 +762,7 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 12vh;
+    min-height: 15vh;
     background-color: rgb(255, 252, 0);
     font-size: 1.8rem;
     padding: 1rem;
