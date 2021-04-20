@@ -788,6 +788,9 @@ textarea {
     justify-content: space-between;
     background-color: rgb(255, 252, 0);
     min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .custom-header button {
@@ -804,7 +807,7 @@ textarea {
   }
 
   .custom-header h1 {
-    margin-right: 50%;
+    margin-right: 35%;
   }
 
   /* dashboard  - takes you nowhere*/
