@@ -277,11 +277,6 @@ textarea {
   height: auto;
 }
 
-.freelance_view_project {
-  display: flex;
-  justify-content: center;
-}
-
 .freelance_project_button {
   background-color: #fffc00;
   color: black;
@@ -292,8 +287,9 @@ textarea {
   border: 0;
   width: 20rem;
   height: 4rem;
+  border-radius: 2rem;
   cursor: pointer;
-  margin: 2rem;
+  margin-left: 35%;
 }
 
 .freelance_project_link {
@@ -646,10 +642,6 @@ textarea {
     height: auto;
   }
 
-  .freelance_view_project {
-    display: flex;
-    justify-content: center;
-  }
   .freelance_project_button {
     background-color: #fffc00;
     color: black;
@@ -660,7 +652,9 @@ textarea {
     border: 1px solid white;
     width: 20rem;
     height: 4rem;
+    border-radius: 2rem;
     cursor: pointer;
+    margin-left: 35%;
   }
 
   .freelance_project_link {
@@ -990,15 +984,11 @@ textarea {
   }
 
   .project__heading hr {
-    /* width: 11%;
+    width: 11%;
     height: 1px;
-    color: black; */
-    display: none;
+    color: black;
   }
 
-  .project__heading h1 {
-    padding-left: 8%;
-  }
   .freelance_project {
     width: 90%;
     height: auto;
@@ -1027,10 +1017,6 @@ textarea {
     height: auto;
   }
 
-  .freelance_view_project {
-    display: flex;
-    justify-content: center;
-  }
   .freelance_project_button {
     background-color: #fffc00;
     color: black;
@@ -1039,9 +1025,11 @@ textarea {
     align-items: center;
     justify-content: center;
     border: 1px solid white;
-    width: 25rem;
-    height:5rem;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
     cursor: pointer;
+    margin-left: 15%;
   }
 
   .freelance_project_link {
